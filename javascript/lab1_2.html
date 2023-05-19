@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Вороны</title>
+    <style>
+        .menu li a:hover {
+        background-color:rgb(181, 161, 239);
+        transition: background-color 1s, transform 1.5s;
+        }
+    </style>
+</head>
+<body>
+  <script>
+   "use strict"
+   let num = prompt('Введите число', '')
+   if (num==1){
+    alert('На ветке сидит 1 ворона');
+   }
+   else if (num>=2 && num<=4){
+    switch (num) {
+        case 2:
+            alert("На ветке сидит 2 вороны");
+            break;
+        case 3:
+            alert("На ветке сидит 3 вороны");
+            break;
+        case 4:
+            alert("На ветке сидит 4 вороны");
+            break;
+   }
+}
+    else if (num>=5 && num<=10)
+    switch (num) {
+        case 5:
+        alert("На ветке сидит 5 ворон")
+            break;
+   }
+  </script>
+</body>
+</html>
